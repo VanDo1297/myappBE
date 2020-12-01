@@ -13,7 +13,6 @@ module.exports = (sequelize, DataTypes) => {
       displayName: DataTypes.STRING,
       emailAddress: DataTypes.STRING,
       // eslint-disable-next-line camelcase
-      employee_ref: DataTypes.STRING,
       avatarUrl: DataTypes.STRING
     },
     {

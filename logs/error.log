@@ -1,0 +1,16 @@
+2020-12-01T03:19:28.676Z error: uncaughtException: Identifier 'module' has already been declared
+/Users/admin/cloneBE/myapp/controllers/index.js:3
+module.exports = function(app) {
+^
+
+SyntaxError: Identifier 'module' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Users/admin/cloneBE/myapp/app.js:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
